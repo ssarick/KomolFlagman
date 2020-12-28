@@ -1601,11 +1601,11 @@ span {
 }
 
 .section__about__price__container__box__list__item::before {
+  z-index: -1;
   position: absolute;
   content: '';
   width: 80%;
   height: 100px;
-  background: #FFFFFF;
   opacity: 0.7;
   -webkit-box-shadow: 0px 49px 50px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 49px 50px rgba(0, 0, 0, 0.05);
@@ -1805,7 +1805,7 @@ span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url("../img/Vector 13.webp") 0 0/100% no-repeat;
+  background: #F8F3EC url("../img/Vector 13.webp") 0 0/100% no-repeat;
 }
 
 .section__cerf__img-wrp {
