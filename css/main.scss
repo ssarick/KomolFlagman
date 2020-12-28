@@ -197,7 +197,8 @@ span {
 
 .section__header {
     color: #ffffff;
-    background: url('../img/main-bg.webp') 0 0/100% auto no-repeat;
+    // background: url('../img/main-bg.webp') 0 0/100% auto no-repeat;
+    background: url('../img/Group\ 167.png') 0 0/100% auto no-repeat;
     z-index: 0;
     position: relative;
     overflow: hidden;
@@ -1277,11 +1278,11 @@ span {
                         background: url('../img/Rectangle\ 411.webp') no-repeat;
                         position: relative;
                         &::before {
+                            z-index: -1;
                             position: absolute;
                             content: '';
                             width: 80%;
                             height: 100px;
-                            background: #FFFFFF;
                             opacity: 0.7;
                             box-shadow: 0px 49px 50px rgba(0, 0, 0, 0.05);
                             border-radius: 20px;
@@ -1457,7 +1458,7 @@ span {
     padding-top: 50px;
     display: flex;
     flex-direction: column;
-    background: url('../img/Vector\ 13.webp') 0 0/100% no-repeat;
+    background: #F8F3EC url('../img/Vector\ 13.webp') 0 0/100% no-repeat;
     &__img-wrp {
         display: flex;
         position: relative;

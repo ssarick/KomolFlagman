@@ -208,7 +208,6 @@ span {
 
 .section__header {
   color: #ffffff;
-  background: url("../img/main-bg.webp") 0 0/100% auto no-repeat;
   background: url("../img/Group 167.png") 0 0/100% auto no-repeat;
   z-index: 0;
   position: relative;
